@@ -136,7 +136,7 @@ function createWindow() {
             alwaysOnTop: true,
         }), {
             title: 'Install Updates',
-            message: 'Updates downloaded, application will be quit for update...',
+            message: 'Updates downloaded. The application will be closed to apply the updates...',
         });
         setImmediate(() => autoUpdater.quitAndInstall());
     });
